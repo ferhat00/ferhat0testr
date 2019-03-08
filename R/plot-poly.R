@@ -3,3 +3,9 @@ f <- function(x = 3, a = 1, b = 2, c = 3){
   plot(x,y)
   return(y)
 }
+
+g <- function(x = NULL){
+  y = exp(x)
+  plot(x,y)
+  return(y)
+}
