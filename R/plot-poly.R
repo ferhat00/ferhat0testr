@@ -9,3 +9,8 @@ g <- function(x = NULL){
   plot(x,y)
   return(y)
 }
+h <- function(x = NULL){
+  y = log(x)
+  plot(x,y)
+  return(y)
+}
